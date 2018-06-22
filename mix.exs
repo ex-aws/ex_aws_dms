@@ -3,7 +3,7 @@ defmodule ExAws.DMS.Mixfile do
 
   @version "0.1.0"
   @service "dms"
-  @url "https://github.com/100Starlings/ex_aws_#{@service}"
+  @url "https://github.com/ex-aws/ex_aws_#{@service}"
   @name __MODULE__ |> Module.split() |> Enum.take(2) |> Enum.join(".")
 
   def project do
